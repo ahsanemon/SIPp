@@ -5,5 +5,6 @@ RUN apt-get update && \
 	
 WORKDIR /
 
+# Instant Messging SIPp Scripts 
 COPY uac_im.xml /
 COPY uas_im.xml /
