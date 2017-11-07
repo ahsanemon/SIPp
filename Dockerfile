@@ -10,5 +10,5 @@ COPY uac_im.xml /
 COPY uas_im.xml /
 
 # Simple call flow SIPp Scripts
-COPY uac_invite.xml
-COPY uas_invite.xml
+COPY uac_invite.xml /
+COPY uas_invite.xml /
