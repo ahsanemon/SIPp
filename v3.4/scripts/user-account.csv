@@ -1,0 +1,6 @@
+SEQUENTIAL
+# Username: alice
+# Password: secretpass
+# SIP Proxy: 10.42.225.1
+# Destination Number: bob
+Alice;10.42.225.1;[authentication username=alice password=secretpass];bob;
