@@ -166,6 +166,9 @@
   <recv response="200" crlf="true">
   </recv>
 
+  <recv request="INVITE" crlf="true" optional="true">
+  </recv>
+	
   <!-- definition of the response time repartition table (unit is ms)   -->
   <ResponseTimeRepartition value="10, 20, 30, 40, 50, 100, 150, 200"/>
 
