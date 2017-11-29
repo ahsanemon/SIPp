@@ -1,3 +1,7 @@
+# SIPp 
+### sip call simulation tool
+
+
 * To use the simple SIP call scenario
 
       ./sipp  -sf /scripts/uac3.xml 10.42.225.1:5060 -r 7000 -m 2 -l 1
