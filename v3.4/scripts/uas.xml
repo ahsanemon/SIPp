@@ -13,10 +13,10 @@
         [last_Via:]
         [last_From:]
         [last_To:];tag=[call_number]
-		[routes]
+	[routes]
         [last_Call-ID:]
         [last_CSeq:]
-        Contact: <sip:[local_ip]:[local_port];transport=[transport]>
+        Contact: <sip:[field0]@[local_ip]:[local_port];transport=[transport]>
         Content-Length: 0
   
       ]]>
@@ -29,10 +29,10 @@
       [last_Via:]
       [last_From:]
       [last_To:];tag=[call_number]
-	  [routes]
+      [routes]
       [last_Call-ID:]
       [last_CSeq:]
-      Contact: <sip:[local_ip]:[local_port];transport=[transport]>
+      Contact: <sip:[field0]@[local_ip]:[local_port];transport=[transport]>
       Content-Length: 0
 
     ]]>
@@ -45,10 +45,10 @@
       [last_Via:]
       [last_From:]
       [last_To:];tag=[call_number]
-	  [routes]
+      [routes]
       [last_Call-ID:]
       [last_CSeq:]
-      Contact: <sip:[local_ip]:[local_port];transport=[transport]>
+      Contact: <sip:[field0]@[local_ip]:[local_port];transport=[transport]>
       Content-Type: application/sdp
       Content-Length: [len]
 
@@ -76,10 +76,10 @@
       [last_Via:]
       [last_From:]
       [last_To:]
-	  [routes]
+      [routes]
       [last_Call-ID:]
       [last_CSeq:]
-      Contact: <sip:[local_ip]:[local_port];transport=[transport]>
+      Contact: <sip:[field0]@[local_ip]:[local_port];transport=[transport]>
       Content-Length: 0
 
     ]]>
@@ -88,7 +88,6 @@
   <!-- Keep the call open for a while in case the 200 is lost to be     -->
   <!-- able to retransmit it if we receive the BYE again.               -->
   <pause milliseconds="4000"/>
-
 
   <!-- definition of the response time repartition table (unit is ms)   -->
   <ResponseTimeRepartition value="10, 20, 30, 40, 50, 100, 150, 200"/>
