@@ -1,10 +1,12 @@
 # SIPp 
-### sip call simulation tool
+### SIP call simulation tool
 
 
 * To use the simple SIP call scenario
 
-      ./sipp  -sf /scripts/uac3.xml 10.42.225.1:5060 -r 7000 -m 2 -l 1
+      ./sipp  -sf /scripts/invite.xml 10.42.225.1:5060 -r 7000 -m 2 -l 1
+  
+  This will generate total 2 call with one at a time from alice to bob
 
 * To register
 
@@ -14,7 +16,7 @@
 
       ./sipp -sf /scripts/uas.xml 10.42.225.1 -inf /scripts/uas.csv
       
-* To use the call-flow.xml scenario
+* To use the call-flow.xml scenario - register and make the call
 
       ./sipp 10.42.225.1 -sf /scripts/call-flow.xml -inf /scripts/user-account.csv -r 1 -rp 5000 -m 2 -l 1 
 
