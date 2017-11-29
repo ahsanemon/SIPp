@@ -1,6 +1,5 @@
 # SIPp 
-### SIP call simulation tool
-
+### Docker container of SIPp v3.4 the SIP call simulation tool
 
 * To use the simple SIP call scenario
 
